@@ -1,3 +1,4 @@
+
 function isPrime(num) {
 
     if (num === 2) {
@@ -19,4 +20,5 @@ function isPrime(num) {
 
 }
 
-console.log(isPrime(121));
+let a = isPrime(1);
+console.log(a);
