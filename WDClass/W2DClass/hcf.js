@@ -1,4 +1,9 @@
-
+"use strict";
+/**
+ * 
+ * @param {number} num1 
+ * @param {number} num2 
+ */
 
 let compute = function (num1, num2) {
     for (let i = 1; i <= num1 && i <= num2; i++) {
@@ -8,6 +13,6 @@ let compute = function (num1, num2) {
         }
     }
     console.log(`HCF of ${num1} and ${num2} is ${hcf}.`);
-}
+};
 let hcf;
 compute(9, 6);
